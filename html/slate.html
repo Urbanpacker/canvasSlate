@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="xxx">
+	<head>
+		<title>Ardoise magique</title>
+		<meta charset="utf-8" />
+		<!-- Enleve le zoom automatique qu'applique certains navigateur sur le site -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <link rel="stylesheet" media="screen" type="text/css" href="../css/colorpicker.css" />
+    	<script src="https://kit.fontawesome.com/28e1129916.js"></script>
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+	</head>
+<body>
+    <main>    
+    
+    <h1><i class="fas fa-paint-brush"></i>  Ardoise magique ;-)</h1>
+    
+    
+    <canvas id="mon_canvas" width="800" height="500" style="
+    background-color:#fff;
+	display:block;
+	-webkit-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.75);">
+        Veuillez activer Javascript ou utiliser un navigateur récent 
+    </canvas>
+    
+            </main>    
+    
+    <div id ="menu" style="margin: 50px 50px;">
+    
+    
+        <div class="rubrique">
+            <p class="legende">Outils</p>
+            <a href="#" id="eraser" class="btn" role="button"><i class="fas fa-eraser"></i></a>
+            <a href="#" id="pipet" class="btn" role="button"><i class='fas fa-eye-dropper'></i></a>
+        </div>
+    
+        <div class="rubrique">
+            <p class="legende">Couleur</p>
+            <div class="couleurs">
+                    <div id="noir" data-color="#000"></div><div id="marron" data-color="#5B2626"></div><div id="rouge" data-color="#B31822"></div><div id="jaune" data-color="#FEB82E"></div><div id="vert" data-color="#3DB32F"></div><div id="turquoise" data-color="#289D98"></div><div id="bleu" data-color="#127AA3"></div>
+            </div>
+        </div>    
+        
+        <div class="rubrique">
+            <p class="legende">Epaisseur</p>
+            <a href="#" id="thin" class="btn" role="button">Fin</a>
+            <a href="#" id="normal" class="btn" role="button">Normal</a>
+            <a href="#" id="large" class="btn" role="button">Epais</a>
+        </div>
+    </div>
+    
+    <input id="jscolorId" class="jscolor hidden" value="ab2567">    
+    
+    <script src="../js/jscolor-2.0.5/jscolor.js"></script>   
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="../js/utilities.js"></script>
+    <script src="../js/main.js"></script>
+
+
+
+
+
+</body>
+</html>

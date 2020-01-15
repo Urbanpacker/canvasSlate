@@ -1,0 +1,118 @@
+
+**********************************************
+
+/* FONT FACE */
+/* Appelle les polices de la page */
+
+/*GLOBAL */
+/* Balises et class appelés à plusieurs endroits dans la page */
+
+*{
+	box-sizing:border-box;
+}
+
+html, body, main, section, article, div{
+	margin:0;
+	padding:0;
+}
+
+
+html{
+	font-size:62.5%;
+	margin:0;
+}
+
+body{
+    margin:0 auto;
+	font-size:1.6rem;
+}
+
+main{
+	background-color:#EBF0F1;
+	margin:0;
+	padding:50px;
+}
+
+h1{
+	color:#E24C40;
+	
+	margin: 0 0 50px 0;
+}
+
+p, div{
+	display:inline-block;
+}
+
+a.btn{
+	font-size:1.6rem;
+	display:inline-block;
+	border:1px #CCC solid;
+	margin:2px;
+}
+
+
+input[type="button"]{
+	display: inline-block;
+	margin: 5px;
+}
+
+input[type="button"]:first-of-type{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+
+div.rubrique{
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+
+.legende{
+	min-width:120px;
+}
+
+.couleurs div{
+	width:30px;
+	height:30px;
+	border-radius:100%;
+	display:inline-block;
+	margin:10px;
+}
+
+#mon_canvas{
+	margin-left:50px;
+	margin-top:50px;
+}
+
+div#noir{
+	background-color:#000;
+}
+
+div#marron{
+	background-color:#5B2626;
+}
+
+div#rouge{
+	background-color:#B31822;
+}
+
+div#jaune{
+	background-color:#FEB82E;
+}
+
+div#vert{
+	background-color:#3DB32F;
+}
+
+div#turquoise{
+	background-color:#289D98;
+}
+
+div#bleu{
+	background-color:#127AA3;
+}
+
+.hidden{
+	display:none;
+}
